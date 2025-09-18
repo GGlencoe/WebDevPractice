@@ -1,3 +1,35 @@
 h1 {
     color: red;
 }
+
+#ClickMeButton {
+    background-color: darkgoldenrod;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;    
+}
+.buttons {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;    
+}
+
+
+
+.buttons:hover {
+    background-color: darkblue;
+    color: lightgray;
+    cursor: pointer;
+
+}
+
+.buttons:active {
+    background-color: navy;
+    color: white;
+}
+
